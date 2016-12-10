@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">PAMS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_login">PAMS</string>
+    <string name="title_activity_change_appointment">Change Appointment</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="username">Your Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget">Forget Password?</string>
+    <string name="signup">Sign Up</string>
+    <string name="title_activity_view_record">View Record</string>
+    <string name="title_activity_new_appointment">New Appointment</string>
+    <string name="title_activity_delete_appointment">Delete Appointment</string>
+    <string name="logout">Log Out</string>
+    <string name="timeslot_prompt">Choose a timeslot</string>
+    <string-array name="timeslot_array">
+        <item> 9:00 - 9:30</item>
+        <item> 9:30 - 10:00</item>
+        <item>10:00 - 10:30</item>
+        <item>10:30 - 11:00</item>
+        <item>11:00 - 11:30</item>
+        <item>11:30 - 12:00</item>
+        <item>13:00 - 13:30</item>
+        <item>13:30 - 14:00</item>
+        <item>14:00 - 14:30</item>
+        <item>14:30 - 15:00</item>
+        <item>15:00 - 15:30</item>
+        <item>15:30 - 16:00</item>
+        <item>16:00 - 16:30</item>
+        <item>16:30 - 17:00</item>
+    </string-array>
+
+    <string name="clinic_prompt">Choose a clinic</string>
+    <string name="treatment_prompt">Choose a treatment</string>
+
+    <string name="title_activity_account">Account</string>
+    <string name="title_activity_update_appointment">Update Appointment</string>
+    <string name="title_activity_view_appointment">View Appointment</string>
+    <string name="title_activity_view_historical_appointment">View Historical Appointment</string>
+    <string name="title_activity_view_ongoing_appointment">View Ongoing Appointment</string>
+    <string name="title_activity_sign_up">SignUp</string>
+</resources>

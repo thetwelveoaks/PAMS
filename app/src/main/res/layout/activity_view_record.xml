@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="none.pams_new.ViewRecord">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#80FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="patient"
+                android:id="@+id/patient_name"
+                android:layout_below="@+id/textView2"
+                android:textColor="#666362"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="doctor"
+                android:id="@+id/doctor_name"
+                android:layout_below="@+id/patient_name"
+                android:textColor="#666362"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="treatment"
+                android:id="@+id/treatment_type"
+                android:layout_below="@+id/time"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:textColor="#666362"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="time"
+                android:id="@+id/time"
+                android:textSize="15dp"
+                android:layout_below="@+id/doctor_name"
+                android:layout_marginTop="20dp"
+                android:textColor="#666362"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treatment Record"
+                android:id="@+id/textView"
+                android:layout_below="@+id/treatment_type"
+                android:layout_marginTop="20dp"
+                android:textColor="#2B3856"
+                android:textSize="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment Information"
+                android:id="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:textColor="#2B3856"
+                android:textSize="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="weight"
+                android:id="@+id/weight"
+                android:textColor="#666362"
+                android:textSize="15dp"
+                android:layout_below="@+id/height"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="height"
+                android:textSize="15dp"
+                android:textColor="#666362"
+                android:id="@+id/height"
+                android:layout_below="@+id/age"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="medication"
+                android:textColor="#666362"
+                android:textSize="15dp"
+                android:id="@+id/medication"
+                android:layout_below="@+id/weight"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/age"
+                android:text="Age"
+                android:textColor="#666362"
+                android:textSize="15dp"
+                android:layout_below="@id/textView"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

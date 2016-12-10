@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="none.pams_new" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".NewAppointment"
+            android:label="@string/title_activity_new_appointment" >
+        </activity>
+        <activity
+            android:name=".ChangeAppointment"
+            android:label="@string/title_activity_change_appointment" >
+        </activity>
+        <activity
+            android:name=".UpdateAppointment"
+            android:label="@string/title_activity_update_appointment" >
+        </activity>
+        <activity
+            android:name=".DeleteAppointment"
+            android:label="@string/title_activity_delete_appointment" >
+        </activity>
+        <activity
+            android:name=".ViewOngoingAppointment"
+            android:label="@string/title_activity_view_ongoing_appointment" >
+        </activity>
+        <activity
+            android:name=".ViewHistoricalAppointment"
+            android:label="@string/title_activity_view_historical_appointment" >
+        </activity>
+        <activity
+            android:name=".ViewRecord"
+            android:label="@string/title_activity_view_record" >
+        </activity>
+        <activity
+            android:name=".Account"
+            android:label="@string/title_activity_account" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+    </application>
+
+</manifest>

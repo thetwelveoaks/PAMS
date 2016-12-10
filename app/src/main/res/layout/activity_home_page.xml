@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="32dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="32dp"
+    tools:context="none.pams_new.HomePage">
+
+
+    <Button
+        android:id="@+id/appointment"
+        style="@style/homepagebutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:drawableTop="@drawable/appointment"
+        android:onClick="goToNewAppointment"
+        android:text="New\nAppointment" />
+    <Button
+        android:id="@+id/view"
+        style="@style/homepagebutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:drawableTop="@drawable/record"
+        android:onClick="goToRecord"
+        android:text="View\nAppointment" />
+    <Button
+        android:id="@+id/change"
+        style="@style/homepagebutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/appointment"
+        android:drawableTop="@drawable/change"
+        android:onClick="goToChangeAppointment"
+        android:text="Change\nAppointment" />
+    <Button
+        android:id="@+id/cancel"
+        style="@style/homepagebutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/view"
+        android:drawableTop="@drawable/cancel"
+        android:onClick="goToDeleteAppointment"
+        android:text="Cancel\nAppointment" />
+    <Button
+        android:id="@+id/account"
+        style="@style/homepagebutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:drawableTop="@drawable/myaccount"
+        android:text="My Account"
+        android:onClick="goToAccount"
+        android:layout_below="@id/change"/>
+
+    <Button
+        android:id="@+id/aboutUs"
+        style="@style/homepagebutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:drawableTop="@drawable/about_us"
+        android:text="About Us"
+        android:onClick="goToAboutUs"
+        android:layout_below="@id/cancel"/>
+
+
+
+</RelativeLayout>

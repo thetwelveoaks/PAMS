@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="none.pams_new.AboutUs">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:isScrollContainer="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#80FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="ABOUT US"
+                android:textColor="#2B3856"
+                android:id="@+id/aboutUs"
+                android:textSize="40dp"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_below="@id/aboutUs"
+                android:src="@drawable/photo"
+                android:id="@+id/photo"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                style="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/photo"
+                android:text="Our Team"
+                android:textColor="#2B3856"
+                android:textSize="30dp"
+                android:id="@+id/ourTeam"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ourTeam"
+                android:id="@+id/teamMember"
+                android:textColor="#666362"
+                android:text="TEAM NONE\nCao Gaoxu | Ng Yu Xin \nLi Chuqiao | Chen Zhe \nChen Ningshuang | Wei Yumou"
+                android:textSize="20dp"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:layout_below="@id/teamMember"
+                android:id="@+id/contact"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="30dp"
+                android:textColor="#2B3856"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contact"
+                android:text="Email: PAMS@nyah.com\nContact Number: 85505204"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#666362"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

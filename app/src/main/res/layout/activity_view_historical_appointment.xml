@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="none.pams_new.ViewHistoricalAppointment">
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/btn_ongoing"
+
+            android:text="Ongoing"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/unselected_ongoing"
+            />
+        <Button
+            android:id="@+id/btn_historical"
+            android:text="Historical"
+            android:textColor="#2E9AFE"
+            android:textSize="15sp"
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/selected_historical"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btn_ongoing"
+            android:layout_toEndOf="@+id/btn_ongoing" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tableLayout"
+            android:background="#80FFFFFF"></TableLayout>
+    </ScrollView>
+
+</RelativeLayout>
